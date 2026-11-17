@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Visão geral | Clínica Veterinária</title><link rel="stylesheet" href="style.css"></head>
+<body data-pagina="dashboard">
+<div class="app-shell">
+  <aside class="sidebar">
+    <a class="brand" href="dashboard.html"><span>Clínica Veterinária</span></a>
+    <div class="nav-label">MENU</div>
+    <nav class="side-nav">
+      <a class="nav-link active" href="dashboard.html">Visão geral</a>
+      <a class="nav-link" href="tutores.html">Tutores</a>
+      <a class="nav-link" href="pets.html">Pets</a>
+      <a class="nav-link" href="agendamentos.html">Agendamentos</a>
+    </nav>
+    <div class="sidebar-bottom"><button id="btnSair" class="logout-button">Sair da conta</button></div>
+  </aside>
+  <div class="main-area">
+    <header class="topbar"><div><strong>Sistema de gerenciamento veterinário</strong></div><div class="topbar-user"><span id="nomeUsuario"></span></div></header>
+    <main class="page-content">
+      <div class="page-title-row"><div><h1>Visão geral</h1><p>Usuário logado: <strong id="boasVindas"></strong></p></div></div>
+      <section class="content-panel"><div class="panel-heading"><div><h2>Acessar área</h2></div></div>
+        <div class="dashboard-cards">
+          <a class="dashboard-card" href="tutores.html"><strong>Tutores</strong><small>Cadastrar, buscar e editar tutores</small></a>
+          <a class="dashboard-card" href="pets.html"><strong>Pets</strong><small>Cadastrar e listar pets</small></a>
+          <a class="dashboard-card" href="agendamentos.html"><strong>Agendamentos</strong><small>Consultar e atualizar datas</small></a>
+        </div>
+      </section>
+    </main>
+  </div>
+</div>
+<script src="app.js"></script>
+</body></html>
+
+
+
+
+

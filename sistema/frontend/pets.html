@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="pt-BR"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Pets | Clínica Veterinária</title><link rel="stylesheet" href="style.css"></head>
+<body data-pagina="pets"><div class="app-shell"><aside class="sidebar"><a class="brand" href="dashboard.html"><span>Clínica Veterinária</span></a><div class="nav-label">MENU</div><nav class="side-nav"><a class="nav-link" href="dashboard.html">Visão geral</a><a class="nav-link" href="tutores.html">Tutores</a><a class="nav-link active" href="pets.html">Pets</a><a class="nav-link" href="agendamentos.html">Agendamentos</a></nav><div class="sidebar-bottom"><button id="btnSair" class="logout-button">Sair da conta</button></div></aside>
+<div class="main-area"><header class="topbar"><div><span class="topbar-kicker">PACIENTES</span><strong>Gerenciamento de pets</strong></div><div class="topbar-user"><span id="nomeUsuario"></span></div></header><main class="page-content"><div class="page-title-row"><div><span class="eyebrow">PACIENTES DA CLÍNICA</span><h1>Pets</h1><p>Cadastre cada paciente e mantenha o vínculo com seu tutor.</p></div></div>
+<div class="split-layout"><section class="content-panel form-panel"><div class="panel-heading"><div><span class="panel-step">01</span><div><h2>Novo pet</h2><p>Informe os dados do paciente.</p></div></div></div><form id="formPet" class="data-form"><div class="field"><label for="petNome">Nome do pet</label><input type="text" id="petNome" placeholder="Ex.: Luna" required></div><div class="field-row"><div class="field"><label for="petEspecie">Espécie</label><input type="text" id="petEspecie" placeholder="Cachorro, gato..." required></div><div class="field"><label for="petRaca">Raça</label><input type="text" id="petRaca" placeholder="Ex.: SRD"></div></div><div class="field"><label for="petNascimento">Data de nascimento</label><input type="date" id="petNascimento"></div><div class="field"><label for="petTutor">Tutor responsável</label><select id="petTutor" required><option value="">Selecione o tutor...</option></select><small>O pet precisa estar associado a um tutor cadastrado.</small></div><p id="msgPet" class="erro" hidden></p><button class="button-primary" type="submit">Cadastrar pet <span>→</span></button></form></section>
+<section class="content-panel"><div class="panel-heading"><div><span class="panel-step">02</span><div><h2>Pets cadastrados</h2><p>Pacientes e seus responsáveis.</p></div></div></div><div class="table-scroll"><table><thead><tr><th>Pet</th><th>Espécie</th><th>Raça</th><th>Nascimento</th><th>Tutor</th></tr></thead><tbody id="tabelaPets"></tbody></table></div></section></div></main></div></div><script src="app.js"></script></body></html>
+
+
+
+
+
+
+

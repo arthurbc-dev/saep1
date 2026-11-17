@@ -1,0 +1,6 @@
+COMO RODAR
+1) Backend:   cd sistema/backend  ->  npm install  ->  npm start   (http://localhost:3000)
+              (na 1a vez cria o saep.db lendo ../../saep_db.sql; para recriar, apague o saep.db)
+2) Frontend:  abra sistema/frontend no VS Code -> botão direito em index.html -> "Open with Live Server"
+
+LOGINS DE TESTE: admin/admin123 | camila/vet123 | recepcao/123456
